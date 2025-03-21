@@ -1,0 +1,45 @@
+.shortcuts-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.shortcut-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-verde-principal);
+    border: none;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    width: 220px;
+    height: 50px; 
+    box-shadow: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.shortcut-card:hover {
+    background-color: #516357;
+}
+
+.shortcut-icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-right: 0.5rem;
+}
+
+.shortcut-action {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600;
+    font-family: 'Inter', serif;
+    font-size: 1.5rem;
+    color: #6d3a17;
+}

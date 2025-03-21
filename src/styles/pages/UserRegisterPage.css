@@ -1,0 +1,135 @@
+.register-container {
+    display: flex;
+    height: 80vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.register-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.logo-image {
+    max-width: 80%;
+    object-fit: contain;
+}
+
+.register-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+.form-title {
+    font-weight: 900;
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 2rem;
+    color: #6d3a17;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 0.5px;
+}
+
+.form-group {
+    margin-bottom: 3px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+    font-size: 12px; 
+}
+
+.input-container-register {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #CBCABE !important;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    padding: 5px 3px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.input-icon-right {
+    position: absolute;
+    right: 10px;
+    color: #666;
+    font-size: 18px;
+}
+
+.select-container {
+    position: relative;
+}
+
+.form-select {
+    appearance: none;
+    padding-right: 36px;
+    background-color: transparent;
+}
+
+.select-icon {
+    position: absolute;
+    right: 12px;
+    color: #999;
+    pointer-events: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 16px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 40px;
+}
+
+.btn-cancel {
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #ddd;
+}
+
+.btn-cancel:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-register {
+    background-color: #2b3c2c;
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: #223023;
+}
+
+
+

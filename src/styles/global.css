@@ -1,0 +1,52 @@
+:root {
+    /* Colores principales */
+    --color-verde-principal: #2E3B2B;
+    --color-cafe: #7C4A36;
+    --color-gris: #CBCABE;
+
+    /* Colores de estado */
+    --color-exito: #2dcb73;
+    --color-error: #f10037;
+    --color-advertencia: #ffc800;
+
+
+    --color-placeholder: #999;
+    --color-borde: #ccc;
+    --color-icono: #888;
+    --color-icono-hover: #555;
+    --color-verde-hover: #4F6F6F;
+    --color-verde-active: #3A524A;
+
+    /* Espaciados */
+    --spacing-xs: 0.3rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 0.8rem;
+    --spacing-lg: 1rem;
+    --spacing-xl: 1.5rem;
+    --spacing-xxl: 2rem;
+
+    /* Bordes */
+    --border-radius-sm: 6px;
+    --border-radius-lg: 25px;
+
+    /* Transiciones */
+    --transition-default: 0.3s;
+    --transition-quick: 0.2s;
+}
+
+/* Estilos base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: var(--color-texto-oscuro);
+}
+
+h1{
+    font-weight: 900;
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 2.5rem;
+    color: #6d3a17;
+    margin-top: 1px;
+}
